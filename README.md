@@ -1,6 +1,6 @@
-# 简介
+# Wtty 简介
 
-wtty 是一款部署在 Linux 系统设备上的程序，目前支持 arm64、x86 架构。通过 wtty，用户可以在远程浏览器端（webtty）对设备进行伪终端（tty）控制操作。wtty 与 webtty 通过 WebRTC 技术实现实时通讯，而信令交换则可根据使用场景选择使用本地 WebSocket 或远程 MQTT 服务。
+[wtty](https://wtty.run) 是一款部署在 Linux 系统设备上的程序，目前支持 arm64、x86 架构。通过 wtty，用户可以在远程浏览器端（webtty）对设备进行伪终端（tty）控制操作。wtty 与 webtty 通过 WebRTC 技术实现实时通讯，而信令交换则可根据使用场景选择使用本地 WebSocket 或远程 MQTT 服务。
 
 ### 关系概览
 
@@ -41,7 +41,7 @@ curl -fsSL https://wtty.run/install.sh | bash
 wtty 可以通过命令行参数进行灵活配置，从而满足不同的应用场景（本地、远程、认证需求等）。
 在运行前，请确保已满足以下条件：
 - 若使用 `mqtt` 模式，请确认 MQTT Broker 可访问，并了解对应的 URL、用户名、密码（如有认证要求）。  
-- 如需通过 webtty（浏览器端）对设备进行操作，请访问 www.wtty.run 在该页面中输入 wtty 生成的设备 ID 实现连接。  
+- 如需通过 webtty（浏览器端）对设备进行操作，请访问 wtty.run 在该页面中输入 wtty 生成的设备 ID 实现连接。  
 
 **命令行参数说明** 
 
